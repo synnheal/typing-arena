@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Typing Arena
 
-First, run the development server:
+**A competitive typing speed test with training drills, stats tracking, and keyboard heatmaps.**
+
+*Un test de vitesse de frappe competitif avec exercices d'entrainement, suivi de statistiques et heatmaps clavier.*
+
+[English](#english) | [Francais](#francais)
+
+</div>
+
+---
+
+## English
+
+### What is Typing Arena?
+
+Typing Arena is a feature-rich typing test application. Take timed typing tests with random words or famous quotes, train on your weak keys with targeted drills, track your WPM and accuracy over time, and visualize your performance with keyboard heatmaps and trend charts.
+
+### Features
+
+- **Typing Tests** — Timed tests with configurable duration and text sources
+- **Multiple Text Sources** — Random words, quotes, and custom text in English & French
+- **Training Mode** — Targeted drills that focus on your weakest keys
+- **Training Plans** — Auto-generated practice plans based on your error patterns
+- **Keyboard Heatmap** — Visual heatmap showing accuracy per key
+- **Session History** — All sessions stored locally with IndexedDB (Dexie)
+- **Trend Charts** — Track WPM, accuracy, and consistency over time with Recharts
+- **Per-Letter Stats** — Detailed accuracy and speed breakdown for every character
+- **Countdown Timer** — Visual countdown with progress bar
+- **Dark / Light Mode** — Theme toggle
+- **Bilingual UI** — Full English & French interface
+
+### Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| UI | Tailwind CSS 4 + shadcn/ui + Radix UI |
+| State | Zustand |
+| Charts | Recharts |
+| Database | Dexie (IndexedDB) |
+| i18n | next-intl |
+
+### Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Francais
 
-## Learn More
+### Qu'est-ce que Typing Arena ?
 
-To learn more about Next.js, take a look at the following resources:
+Typing Arena est une application de test de frappe complete. Passez des tests chronometes avec des mots aleatoires ou des citations celebres, entrainez-vous sur vos touches faibles avec des exercices cibles, suivez vos WPM et votre precision au fil du temps, et visualisez vos performances avec des heatmaps clavier et des graphiques de tendance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fonctionnalites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Tests de Frappe** — Tests chronometes avec duree et sources de texte configurables
+- **Sources de Texte Multiples** — Mots aleatoires, citations et texte personnalise en anglais et francais
+- **Mode Entrainement** — Exercices cibles sur vos touches les plus faibles
+- **Plans d'Entrainement** — Plans de pratique auto-generes bases sur vos erreurs
+- **Heatmap Clavier** — Heatmap visuelle montrant la precision par touche
+- **Historique des Sessions** — Toutes les sessions stockees localement avec IndexedDB
+- **Graphiques de Tendance** — Suivez WPM, precision et regularite avec Recharts
+- **Stats par Lettre** — Detail de la precision et vitesse pour chaque caractere
+- **Compte a Rebours** — Decompte visuel avec barre de progression
+- **Mode Sombre / Clair** — Bascule de theme
+- **Interface Bilingue** — Anglais et francais complets
 
-## Deploy on Vercel
+### Demarrage Rapide
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ouvrez [http://localhost:3000](http://localhost:3000).
+
+---
+
+<div align="center">
+
+**Built with Next.js, TypeScript & Tailwind CSS**
+
+</div>
