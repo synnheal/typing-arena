@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "test": "Test",
+    "stats": "Stats",
+    "training": "Entraînement"
+  },
+  "home": {
+    "title": "Typing Arena",
+    "subtitle": "Maîtrisez votre clavier. Analysez chaque frappe.",
+    "quickStart": "Démarrage rapide",
+    "modeWords": "Mots",
+    "modeSentences": "Phrases",
+    "duration": "Durée",
+    "seconds": "{count}s",
+    "startTest": "Lancer le test",
+    "features": {
+      "precision": "Précision par frappe",
+      "precisionDesc": "Suivez WPM, précision et performance par lettre en temps réel.",
+      "heatmap": "Heatmap clavier",
+      "heatmapDesc": "Visualisez vos points faibles avec les taux d'erreur et de vitesse.",
+      "training": "Entraînement intelligent",
+      "trainingDesc": "Exercices générés automatiquement ciblant vos lettres et paires les plus faibles."
+    }
+  },
+  "test": {
+    "title": "Test de frappe",
+    "wpm": "MPM",
+    "rawWpm": "MPM brut",
+    "accuracy": "Précision",
+    "time": "Temps",
+    "characters": "Caractères",
+    "correct": "Corrects",
+    "incorrect": "Incorrects",
+    "backspaces": "Retours arrière",
+    "consistency": "Régularité",
+    "restart": "Recommencer",
+    "tryAgain": "Réessayer",
+    "results": "Résultats",
+    "startTyping": "Commencez à taper...",
+    "testComplete": "Test terminé !",
+    "personalBest": "Record personnel !"
+  },
+  "stats": {
+    "title": "Statistiques",
+    "sessions": "Sessions",
+    "letterStats": "Stats par lettre",
+    "trends": "Tendances",
+    "heatmap": "Heatmap clavier",
+    "noData": "Complétez des tests pour voir vos stats.",
+    "recentSessions": "Sessions récentes",
+    "date": "Date",
+    "wpm": "MPM",
+    "accuracy": "Précision",
+    "duration": "Durée",
+    "mode": "Mode",
+    "letter": "Lettre",
+    "avgLatency": "Latence moy.",
+    "errorRate": "Taux d'erreur",
+    "samples": "Échantillons",
+    "viewErrors": "Erreurs",
+    "viewSpeed": "Vitesse",
+    "last7Days": "7 derniers jours",
+    "last30Days": "30 derniers jours",
+    "allTime": "Tout"
+  },
+  "training": {
+    "title": "Entraînement",
+    "dailyPlan": "Plan du jour",
+    "weakLetters": "Lettres faibles",
+    "drills": "Exercices",
+    "startDrill": "Lancer l'exercice",
+    "drillComplete": "Exercice terminé !",
+    "mastery": "Maîtrise",
+    "noWeaknesses": "Bravo ! Aucune faiblesse significative détectée.",
+    "repetition": "Répétition de lettres",
+    "bigrams": "Pratique de bigrammes",
+    "weakWords": "Mots avec lettres faibles",
+    "progress": "Progression"
+  },
+  "settings": {
+    "language": "Langue",
+    "layout": "Disposition",
+    "theme": "Thème",
+    "dark": "Sombre",
+    "light": "Clair"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "test": "Test",
+    "stats": "Stats",
+    "training": "Training"
+  },
+  "home": {
+    "title": "Typing Arena",
+    "subtitle": "Master your keyboard. Track every keystroke.",
+    "quickStart": "Quick Start",
+    "modeWords": "Words",
+    "modeSentences": "Sentences",
+    "duration": "Duration",
+    "seconds": "{count}s",
+    "startTest": "Start Test",
+    "features": {
+      "precision": "Keystroke Precision",
+      "precisionDesc": "Track WPM, accuracy, and per-letter performance in real time.",
+      "heatmap": "Keyboard Heatmap",
+      "heatmapDesc": "Visualize your weak spots with error rate and speed overlays.",
+      "training": "Smart Training",
+      "trainingDesc": "Auto-generated drills targeting your weakest letters and pairs."
+    }
+  },
+  "test": {
+    "title": "Typing Test",
+    "wpm": "WPM",
+    "rawWpm": "Raw WPM",
+    "accuracy": "Accuracy",
+    "time": "Time",
+    "characters": "Characters",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "backspaces": "Backspaces",
+    "consistency": "Consistency",
+    "restart": "Restart",
+    "tryAgain": "Try Again",
+    "results": "Results",
+    "startTyping": "Start typing to begin...",
+    "testComplete": "Test Complete!",
+    "personalBest": "Personal Best!"
+  },
+  "stats": {
+    "title": "Statistics",
+    "sessions": "Sessions",
+    "letterStats": "Letter Stats",
+    "trends": "Trends",
+    "heatmap": "Keyboard Heatmap",
+    "noData": "Complete some tests to see your stats.",
+    "recentSessions": "Recent Sessions",
+    "date": "Date",
+    "wpm": "WPM",
+    "accuracy": "Accuracy",
+    "duration": "Duration",
+    "mode": "Mode",
+    "letter": "Letter",
+    "avgLatency": "Avg Latency",
+    "errorRate": "Error Rate",
+    "samples": "Samples",
+    "viewErrors": "Errors",
+    "viewSpeed": "Speed",
+    "last7Days": "Last 7 Days",
+    "last30Days": "Last 30 Days",
+    "allTime": "All Time"
+  },
+  "training": {
+    "title": "Training",
+    "dailyPlan": "Daily Plan",
+    "weakLetters": "Weak Letters",
+    "drills": "Drills",
+    "startDrill": "Start Drill",
+    "drillComplete": "Drill Complete!",
+    "mastery": "Mastery",
+    "noWeaknesses": "Great job! No significant weaknesses detected.",
+    "repetition": "Letter Repetition",
+    "bigrams": "Bigram Practice",
+    "weakWords": "Weak Letter Words",
+    "progress": "Progress"
+  },
+  "settings": {
+    "language": "Language",
+    "layout": "Layout",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light"
+  }
+}
