@@ -1,25 +1,26 @@
 <div align="center">
 
-# Typing Arena
+# ⌨️ Typing Arena
 
-**A competitive typing speed test with training drills, stats tracking, and keyboard heatmaps.**
+### *A competitive typing speed test with training drills, stats tracking, and keyboard heatmaps.*
 
-*Un test de vitesse de frappe competitif avec exercices d'entrainement, suivi de statistiques et heatmaps clavier.*
+**English** · [🇫🇷 Français](README.fr.md)
 
-[English](#english) | [Francais](#francais)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Client-side](https://img.shields.io/badge/100%25-client--side-FF3D00?style=flat-square)
 
 </div>
 
 ---
 
-## English
 
-### What is Typing Arena?
+## 📖 What is Typing Arena?
 
 Typing Arena is a feature-rich typing test application. Take timed typing tests with random words or famous quotes, train on your weak keys with targeted drills, track your WPM and accuracy over time, and visualize your performance with keyboard heatmaps and trend charts.
 
-### Features
-
+## ✨ Features
 - **Typing Tests** — Timed tests with configurable duration and text sources
 - **Multiple Text Sources** — Random words, quotes, and custom text in English & French
 - **Training Mode** — Targeted drills that focus on your weakest keys
@@ -32,8 +33,7 @@ Typing Arena is a feature-rich typing test application. Take timed typing tests 
 - **Dark / Light Mode** — Theme toggle
 - **Bilingual UI** — Full English & French interface
 
-### Tech Stack
-
+## 🧰 Tech stack
 | Layer | Technology |
 |-------|-----------|
 | Framework | Next.js 16 (App Router) |
@@ -44,8 +44,7 @@ Typing Arena is a feature-rich typing test application. Take timed typing tests 
 | Database | Dexie (IndexedDB) |
 | i18n | next-intl |
 
-### Getting Started
-
+## 🚀 Getting started
 ```bash
 npm install
 npm run dev
@@ -53,41 +52,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
----
-
-## Francais
-
-### Qu'est-ce que Typing Arena ?
-
-Typing Arena est une application de test de frappe complete. Passez des tests chronometes avec des mots aleatoires ou des citations celebres, entrainez-vous sur vos touches faibles avec des exercices cibles, suivez vos WPM et votre precision au fil du temps, et visualisez vos performances avec des heatmaps clavier et des graphiques de tendance.
-
-### Fonctionnalites
-
-- **Tests de Frappe** — Tests chronometes avec duree et sources de texte configurables
-- **Sources de Texte Multiples** — Mots aleatoires, citations et texte personnalise en anglais et francais
-- **Mode Entrainement** — Exercices cibles sur vos touches les plus faibles
-- **Plans d'Entrainement** — Plans de pratique auto-generes bases sur vos erreurs
-- **Heatmap Clavier** — Heatmap visuelle montrant la precision par touche
-- **Historique des Sessions** — Toutes les sessions stockees localement avec IndexedDB
-- **Graphiques de Tendance** — Suivez WPM, precision et regularite avec Recharts
-- **Stats par Lettre** — Detail de la precision et vitesse pour chaque caractere
-- **Compte a Rebours** — Decompte visuel avec barre de progression
-- **Mode Sombre / Clair** — Bascule de theme
-- **Interface Bilingue** — Anglais et francais complets
-
-### Demarrage Rapide
-
-```bash
-npm install
-npm run dev
-```
-
-Ouvrez [http://localhost:3000](http://localhost:3000).
 
 ---
 
 <div align="center">
+<sub>
 
-**Built with Next.js, TypeScript & Tailwind CSS**
+Built with care by <b><a href="https://nathanfernandes.fr">Nathan Fernandes</a></b> — Founder of SYNN-IA · Dijon, France
 
+🌐 <a href="https://nathanfernandes.fr">Portfolio</a> · 💼 <a href="https://www.linkedin.com/in/nathan-fernandes-a5793b377/">LinkedIn</a> · 🐙 <a href="https://github.com/SynnIA">GitHub</a>
+
+</sub>
 </div>
